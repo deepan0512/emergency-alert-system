@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 50px 20px;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#sosBtn {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: none;
+  background: #e53935;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 30px;
+}
+
+#sosBtn:active {
+  transform: scale(0.95);
+}
+
+#locationBtn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+#status {
+  margin: 15px;
+  font-weight: bold;
+}
+.alert-box {
+  display: none;
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 350px;
+  background: white;
+  border: 3px solid red;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.alert-box h2 {
+  color: red;
+}
+
+#closeAlert {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+}
+.contacts,
+.history {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+.contacts h3,
+.history h3 {
+  margin-top: 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact span {
+  font-weight: bold;
+}
+
+.history p {
+  color: #555;
+}
+dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+.card span {
+  font-size: 25px;
+}
+
+.card h3 {
+  margin: 8px 0 5px;
+  font-size: 15px;
+}
+
+.card p {
+  margin: 0;
+  font-weight: bold;
+}
